@@ -1,0 +1,27 @@
+{
+  "kind": "collectionType",
+  "collectionName": "technology_apps",
+  "info": {
+    "singularName": "technology-app",
+    "pluralName": "technology-apps",
+    "displayName": "Technology | App"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "name": {
+      "type": "string",
+      "required": true,
+      "unique": true
+    },
+    "icon": {
+      "allowedTypes": [
+        "images"
+      ],
+      "type": "media",
+      "multiple": false
+    }
+  }
+}

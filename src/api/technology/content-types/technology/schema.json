@@ -1,0 +1,31 @@
+{
+  "kind": "collectionType",
+  "collectionName": "technologies",
+  "info": {
+    "singularName": "technology",
+    "pluralName": "technologies",
+    "displayName": "Technology",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "apps": {
+      "type": "relation",
+      "relation": "oneToMany",
+      "target": "api::technology-app.technology-app"
+    },
+    "dev": {
+      "type": "relation",
+      "relation": "oneToMany",
+      "target": "api::technology-dev.technology-dev"
+    },
+    "services": {
+      "type": "relation",
+      "relation": "oneToMany",
+      "target": "api::technology-service.technology-service"
+    }
+  }
+}

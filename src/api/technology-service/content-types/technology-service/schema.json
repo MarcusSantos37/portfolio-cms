@@ -1,0 +1,27 @@
+{
+  "kind": "collectionType",
+  "collectionName": "technology_services",
+  "info": {
+    "singularName": "technology-service",
+    "pluralName": "technology-services",
+    "displayName": "Technology | Service"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "name": {
+      "type": "string",
+      "required": true,
+      "unique": true
+    },
+    "icon": {
+      "allowedTypes": [
+        "images"
+      ],
+      "type": "media",
+      "multiple": false
+    }
+  }
+}
