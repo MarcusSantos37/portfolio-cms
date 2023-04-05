@@ -87,7 +87,8 @@ public/uploads/*
 # Node.js
 ############################
 
-.env.*
+.env.local
+.env.production
 
 lib-cov
 lcov.info
